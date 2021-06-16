@@ -286,8 +286,8 @@ Credenciales de AWS de nuestra cuenta.
 
 
 ```python
-AWS_ACCESS_KEY_ID = "AKIAWH3A7HI4IQG4TV6I"
-AWS_SECRET_ACCESS_KEY = "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"
+AWS_ACCESS_KEY_ID = ""
+AWS_SECRET_ACCESS_KEY = ""
 ```
 
 
@@ -1139,8 +1139,8 @@ Por medio de Boto3 subimos dataset al AWS a la zona Raw
 
 
 ```python
-AWS_ACCESS_KEY_ID = "AKIAWH3A7HI4IQG4TV6I"
-AWS_SECRET_ACCESS_KEY = "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"
+AWS_ACCESS_KEY_ID = ""
+AWS_SECRET_ACCESS_KEY = ""
 ```
 
 
