@@ -42,7 +42,7 @@ Notas:
     * AWS Data Wrangler
     
 **Diagrama **
-![diagrama.jpg](attachment:diagrama.jpg)
+![diagrama.jpg](https://github.com/eiderbarrientos/pruebaNequi/blob/main/diagrama.jpg)
 
 instalación de librerias:
 
