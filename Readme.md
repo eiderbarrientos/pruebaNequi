@@ -1,5 +1,4 @@
-# PRUEBA NEQUI.
-
+# PRUEBA NEQUI. 
 ## DATASET consumo de energía eléctrica en un hogar.
 **pregunta de negocio**
 ¿Queremos saber la tendencia de consumo de energía en el hogar en el año 2008 y cual de  submedición de “cocina, zona de ropas y calefacción” presento mayor  en el mismo año?
