@@ -330,7 +330,7 @@ else:
 
 evidenciamos como se carga el archivo en la zona raw.
 
-![raw.jpg](attachment:raw.jpg)
+![raw.jpg](https://github.com/eiderbarrientos/pruebaNequi/blob/main/raw.jpg)
 
 Desde bucket 'prueba-nequi-raw' cargamos el dataset para tranformarlos y limpiarlo.
 
@@ -1055,23 +1055,23 @@ wr.s3.to_parquet(
 
 
 
-![parquet_energia.jpg](attachment:parquet_energia.jpg)
+![parquet_energia.jpg](https://github.com/eiderbarrientos/pruebaNequi/blob/main/parquet_energia.jpg)
 
 tablas en GLU Creadas
 
-![glue1.jpg](attachment:glue1.jpg)
+![glue1.jpg](https://github.com/eiderbarrientos/pruebaNequi/blob/main/glue1.jpg)
 
 Query de consumo desde athena.
 
-![athenaQuery.jpg](attachment:athenaQuery.jpg)
+![athenaQuery.jpg](https://github.com/eiderbarrientos/pruebaNequi/blob/main/athenaQuery.jpg)
 
 consumimos datos para responder la pregunta de negocio. **Agosto** es la respuesta a la pregunta de negocio y la submedicion que mas consume es la de la calefaccion con color azul.
 
 
 
-![dash2.jpg](attachment:dash2.jpg)
+![dash2.jpg](https://github.com/eiderbarrientos/pruebaNequi/blob/main/dash2.jpg)
 
-![dash.jpg](attachment:dash.jpg)
+![dash.jpg](https://github.com/eiderbarrientos/pruebaNequi/blob/main/dash.jpg)
 
 # DATASET - 2  Spotify PlayList
 
@@ -1515,8 +1515,8 @@ wr.s3.to_parquet(
 
 
 
-![spoti.jpg](attachment:spoti.jpg)
+![spoti.jpg](https://github.com/eiderbarrientos/pruebaNequi/blob/main/spoti.jpg)
 
 consumimos data para visualizar dashboard
 
-![spoti2.jpg](attachment:spoti2.jpg)
+![spoti2.jpg](https://github.com/eiderbarrientos/pruebaNequi/blob/main/spoti2.jpg)
