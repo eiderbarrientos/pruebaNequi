@@ -1520,3 +1520,29 @@ wr.s3.to_parquet(
 consumimos data para visualizar dashboard
 
 ![spoti2.jpg](https://github.com/eiderbarrientos/pruebaNequi/blob/main/spoti2.jpg)
+
+
+## Completar la redacción del proyecto
+
+¿Cuál es el objetivo?
+El objetivo es que se tenga almacenada la data original como llega de la fuente en una zona RAW, luego de realizar las transformaciones que se requieren en el proyecto y se puedan almacenar en otra zona que sea disponible para su consumo y con un formato más liviano, particionado para tener eficiencia al momento de requerir la información.
+
+¿Por qué eligió el modelo que eligió?
+Por que conozco la forma de trabajar con los scrips de python, las ETL que conozco son de otra tecnología como por ejemplo en SSIS. En el momento estoy dando mis primeros pasos con AWS y estoy empezando a conocer los servicios en general existentes.
+
+Incluya una descripción de cómo abordaría el problema de manera diferente en los
+siguientes escenarios:
+
+1.Si los datos se incrementaran en 100x.
+Cuando se realicen las cargas de la zona stage realizaría particionamiento en el momento de subir los archivos en formato parquet, el particionamiento los realizaría por el campo fecha.
+
+2.Si las tuberías se ejecutaran diariamente en una ventana de tiempo especifica.
+Crearía Jobs de ejecución de manera automática para que se ejecuten a la misma hora.
+
+3.Si la base de datos necesitara ser accedido por más de 100 usuarios funcionales.
+Aumentaría las políticas de AWS para esos usuarios para poder distribuir de forma correcta las funciones que requieren hacer esos usuarios, además implementaría servicios de bases de datos NoSQL.
+
+4.Si se requiere hacer analítica en tiempo real, ¿cuáles componentes cambiarias a su
+arquitectura propuesta?
+Cambiaria los componentes de jupyter notebook por servicios como apache Kafka por ejemplo, Además agregaría componentes de funciones lambda que se ejecuten de manera automática.
+
