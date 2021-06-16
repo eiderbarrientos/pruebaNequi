@@ -1178,7 +1178,7 @@ upload_file(file_name, AWS_S3_BUCKET, object_name)
 
 
 
-![image.png](attachment:image.png)
+![image.png](https://github.com/eiderbarrientos/pruebaNequi/blob/main/raw_spotify.jpg)
 
 cargamos al notebook dataset para realizar transformaciones y limpieza
 
